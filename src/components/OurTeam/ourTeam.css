@@ -1,0 +1,26 @@
+.ourTeam-div{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 15vh;
+}
+
+.card-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap; 
+}
+
+
+/* .footer{
+    display: none;
+} */

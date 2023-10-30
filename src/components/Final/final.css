@@ -1,0 +1,106 @@
+.resultPage-div-f-1 {
+  background-color: gainsboro;
+  height: 85vh;
+  width: 80%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 15vh;
+  padding-bottom: 3rem;
+}
+
+.resultPage-div-f {
+  background-color: gainsboro;
+  height: auto;
+  width: 80%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 5vh;
+  padding-top: 2rem;
+  margin-bottom: 10vh;
+}
+
+.btn-map {
+  position: absolute;
+  left: 400px;
+  bottom: 35px;
+  width: 150px;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  background-color: black;
+  color: white;
+  transition: 500ms;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btn-data {
+  position: absolute;
+  left: 450px;
+  bottom: 85px;
+  width: 100px;
+  border: none;
+  border-radius: 20px;
+  padding: 0.25rem 0.75rem;
+  background-color: black;
+  color: white;
+  transition: 500ms;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btn-data:hover {
+  background-color: #5EE6EB;
+  transform: scale(0.95);
+}
+
+.btn-map:hover {
+  background-color: #42c2ff;
+  transform: scale(0.95);
+}
+
+.data-div {
+  padding: 10px 0;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.btn-back {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 100px;
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: 20px;
+  padding: 0.25rem 0.75rem;
+  background-color: black;
+  color: white;
+  transition: 500ms;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btn-back:hover {
+  background-color: #42c2ff;
+}
+
+.legend-pic {
+  width: 10px;
+}
+
+.Legends {
+  position: relative;
+  bottom: 4.5rem;
+  margin-top: 1rem;
+}
+
+.avoid-clicks {
+  pointer-events: none;
+}
